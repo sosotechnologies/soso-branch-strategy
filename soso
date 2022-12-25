@@ -1,0 +1,7 @@
+echo "# soso-branch-strategy" >> README.md
+git init
+git add README.md
+git commit -m "I will use this branch for git branching strategy"
+git branch -M master
+git remote add origin https://github.com/sosotechnologies/soso-branch-strategy.git
+git push -u origin master
